@@ -1,0 +1,37 @@
+.createBall {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 250px;
+    background-color: red;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform-origin: center center;
+}
+
+#scoreBox {
+    position: absolute;
+    display: flex;
+    border: 3px solid;
+}
+
+#redBallBox {
+    border: 4px solid red;
+}
+
+#greenBallBox {
+    border: 4px solid green;
+}
+
+#blueBallBox {
+    border: 4px solid blue;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 2.1em;
+}
